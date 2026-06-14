@@ -96,6 +96,15 @@ Conducted detailed exploratory analysis including:
 * Route Revenue Analysis
 * Most Delayed Routes Analysis
 
+
+### ✅ Data Visualization
+
+Developed visualizations to effectively communicate patterns, trends, and business insights discovered during the analysis process.
+Tools Used:
+
+- Matplotlib
+- Seaborn
+
   
 ---
 
