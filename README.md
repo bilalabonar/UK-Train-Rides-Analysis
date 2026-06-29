@@ -48,27 +48,31 @@ Throughout the development process, the team accomplished the following:
 
 ### 1. 🏠 Cover Page (Navigation)
 > *An app-like landing page using Power BI buttons and page navigation actions.*
-![Cover Page](link_to_your_image)
+![Cover Page](Cover.png)
 
-### 2. 💰 Executive & Revenue Analysis
+### 2. 📊 Executive Overview
+> *High-level KPIs, Monthly Revenue Trend, and Top Routes summary.*
+![Overview](Overview.png)
+
+### 3. 💰 Executive & Revenue Analysis
 > *Deep dive into revenue by ticket class, peak hours, and payment methods.*
-![Revenue](link_to_your_image)
+![Revenue](Revenue.png)
 
-### 3. 🗺️ Route & Network Analysis
+### 4. 🗺️ Route & Network Analysis
 > *Analyzing the most profitable and busiest routes across the UK.*
-![Routes](link_to_your_image)
+![Routes](Routes.png)
 
-### 4. ⏱️ Operations & Performance
+### 5. ⏱️ Operations & Performance
 > *Tracking delays, cancellations, and operational bottlenecks (Weather, Signal Failures).*
-![Operations](link_to_your_image)
+![Operations](Operations.png)
 
-### 5. 🎫 Tickets & Pricing
+### 6. 🎫 Tickets & Pricing
 > *Analysis of ticket types (Advance vs. Walk-up), price distributions, and Railcard impact on revenue.*
-![Tickets](link_to_your_image)
+![Tickets](Tickets.png)
 
-### 6. 👥 Passenger Experience & Behavior
+### 7. 👥 Passenger Experience & Behavior
 > *A unique behavioral analysis focusing on refund rates, passenger personas (Business Commuters vs. Casual), and booking habits.*
-![Passenger Behavior](link_to_your_image)
+![Passenger Behavior](Passenger_Experience_&_Behavior.png)
 
 ---
 
