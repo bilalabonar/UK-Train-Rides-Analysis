@@ -27,7 +27,7 @@ Python was used for data preparation, feature engineering, visualization, and ex
 
 ## 👥 Team Members & Contributions
 * **Bilal Abo Nar** (Team Leader) - *Advanced Data Cleaning, Star Schema Modeling, DAX (50+ Measures), and Full Interactive Power BI Dashboard Design.*
-* **Shehab El-Din Mohamed Ali** - * Complete Data Understanding, Data Cleaning, Data Preprocessing, Exploratory Data Analysis (EDA), and Data Visualization using Python (Pandas, Matplotlib, Seaborn).*
+* **Shehab El-Din Mohamed Ali** - *Complete Data Understanding, Data Cleaning, Data Preprocessing, Exploratory Data Analysis (EDA), and Data Visualization using Python (Pandas, Matplotlib, Seaborn).*
 * **Esraa Nagy Nabih**
 * **Zeyad Shaaban**
 * **Youssef Khalifa**
@@ -35,15 +35,12 @@ Python was used for data preparation, feature engineering, visualization, and ex
 **Instructor:** Dina Ezzat
 
 ---
+
 ## 👨‍💻 Project Progress (Implemented by Shehab El_Din Mohamed Ali)
 
-The following stages were fully implemented by **Shehab El_Din Mohamed Ali** using Python (Pandas, Matplotlib, and Seaborn).
+*The following stages were fully implemented using Python (Pandas, Matplotlib, and Seaborn).*
 
----
-
-### ✅ Data Understanding
-
-Completed the initial exploration of the dataset:
+### 1. 🔍 Data Understanding
 
 * Examined dataset structure and dimensions.
 * Identified data types.
@@ -51,11 +48,9 @@ Completed the initial exploration of the dataset:
 * Checked duplicate records.
 * Explored unique values and categorical features.
 
----
 
-### ✅ Data Cleaning
 
-Performed comprehensive data cleaning:
+### 2. 🧹 Data Cleaning
 
 * Created a cleaned dataset version.
 * Handled missing values appropriately.
@@ -66,33 +61,27 @@ Performed comprehensive data cleaning:
 * Investigated outliers and retained valid extreme observations.
 * Generated **railway_cleaned.csv**.
 
----
 
-### ✅ Data Preprocessing
 
-Engineered additional features to support analysis:
+### 3. 🏗️ Data Preprocessing
 
-* Purchase Year
-* Purchase Month
-* Purchase Month Name
-* Purchase Day
-* Purchase Hour
-* Departure Hour
-* Arrival Hour
-* Has Railcard
-* Is Delayed
-* Journey Duration
+* Engineered additional features:
 
-Additional preprocessing:
-
-* Fixed overnight journeys crossing midnight by correcting negative duration values.
+  * Purchase Year
+  * Purchase Month
+  * Purchase Month Name
+  * Purchase Day
+  * Purchase Hour
+  * Departure Hour
+  * Arrival Hour
+  * Has Railcard
+  * Is Delayed
+  * Journey Duration
+* Fixed overnight journeys crossing midnight.
 * Generated **railway_preprocessed.csv**.
 
----
 
-### ✅ Exploratory Data Analysis (EDA)
-
-Performed comprehensive exploratory analysis including:
+### 4. 📊 Exploratory Data Analysis (EDA)
 
 * Revenue Analysis
 * Ticket Price Analysis
@@ -104,11 +93,10 @@ Performed comprehensive exploratory analysis including:
 * Route Revenue Analysis
 * Most Delayed Routes Analysis
 
----
 
-### ✅ Data Visualization
+### 5. 📈 Data Visualization
 
-Created analytical visualizations using **Matplotlib** and **Seaborn**, including:
+Created visualizations using **Matplotlib** and **Seaborn**, including:
 
 * Revenue Trends
 * Ticket Price Distribution
@@ -118,7 +106,6 @@ Created analytical visualizations using **Matplotlib** and **Seaborn**, includin
 * Monthly Revenue Trends
 * Route Revenue Analysis
 * Most Delayed Routes Visualization
-
 
 ---
 
