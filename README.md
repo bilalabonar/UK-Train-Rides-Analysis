@@ -17,34 +17,113 @@ This project performs an end-to-end data analysis of UK railway ticket sales and
 
 ---
 
+## 📝 Project Description
+
+This project presents a complete end-to-end data analysis solution for UK railway ticket sales and journey data. The workflow includes data understanding, data cleaning, preprocessing, exploratory data analysis (EDA), interactive dashboard development, and business insight generation.
+
+Python was used for data preparation, feature engineering, visualization, and exploratory analysis, while Power BI was used to design an interactive dashboard that supports data-driven decision-making through KPIs, revenue analysis, operational performance, passenger behavior, and route analysis.
+
+---
+
 ## 👥 Team Members & Contributions
 * **Bilal Abo Nar** (Team Leader) - *Advanced Data Cleaning, Star Schema Modeling, DAX (50+ Measures), and Full Interactive Power BI Dashboard Design.*
-* **Shehab El-Din Mohamed Ali** - *Initial Data Understanding, Basic Data Cleaning, Feature Engineering, and Python EDA (Matplotlib/Seaborn).*
+* **Shehab El-Din Mohamed Ali** - * Complete Data Understanding, Data Cleaning, Data Preprocessing, Exploratory Data Analysis (EDA), and Data Visualization using Python (Pandas, Matplotlib, Seaborn).*
 * **Esraa Nagy Nabih**
 * **Zeyad Shaaban**
 * **Youssef Khalifa**
 
 **Instructor:** Dina Ezzat
 
-### 🌟 Core Project Achievements
-Throughout the development process, the team accomplished the following:
-- **Data Understanding & Cleaning:** Handled missing values, standardized delay reasons, and formatted datetime columns using Python (Pandas).
-- **Data Preprocessing & Feature Engineering:** Extracted critical features such as `Purchase Lead Days`, `Is Peak Hour`, and `Passenger Persona`.
-- **Data Modeling:** Designed and built a highly optimized **Star Schema** in Power BI (1 Fact table, 6 Dimension tables) handling active and inactive relationships.
-- **DAX & Business Logic:** Developed over 50 advanced DAX measures for KPIs and Time Intelligence.
-- **Data Visualization:** Designed the complete 6-page interactive Dark Theme Power BI Dashboard, including custom Page Navigation and Bookmark-driven Filter Panels.
+---
+## 👨‍💻 Project Progress (Implemented by Shehab El_Din Mohamed Ali)
+
+The following stages were fully implemented by **Shehab El_Din Mohamed Ali** using Python (Pandas, Matplotlib, and Seaborn).
 
 ---
 
-## 🛠️ Tech Stack & Workflow
-* **Data Cleaning:** Python (Pandas)
-* **Data Modeling & Visualization:** Power BI
-* **Business Logic:** DAX, Power Query (M Code)
+### ✅ Data Understanding
+
+Completed the initial exploration of the dataset:
+
+* Examined dataset structure and dimensions.
+* Identified data types.
+* Analyzed missing values.
+* Checked duplicate records.
+* Explored unique values and categorical features.
 
 ---
 
-## 🖼️ Dashboard Preview
-*(Add your screenshots or GIFs here)*
+### ✅ Data Cleaning
+
+Performed comprehensive data cleaning:
+
+* Created a cleaned dataset version.
+* Handled missing values appropriately.
+* Replaced missing **Railcard** values with **"No Railcard"**.
+* Preserved missing **Actual Arrival Time** values for cancelled journeys.
+* Preserved missing **Reason for Delay** values for on-time journeys.
+* Converted date and time columns into proper formats.
+* Investigated outliers and retained valid extreme observations.
+* Generated **railway_cleaned.csv**.
+
+---
+
+### ✅ Data Preprocessing
+
+Engineered additional features to support analysis:
+
+* Purchase Year
+* Purchase Month
+* Purchase Month Name
+* Purchase Day
+* Purchase Hour
+* Departure Hour
+* Arrival Hour
+* Has Railcard
+* Is Delayed
+* Journey Duration
+
+Additional preprocessing:
+
+* Fixed overnight journeys crossing midnight by correcting negative duration values.
+* Generated **railway_preprocessed.csv**.
+
+---
+
+### ✅ Exploratory Data Analysis (EDA)
+
+Performed comprehensive exploratory analysis including:
+
+* Revenue Analysis
+* Ticket Price Analysis
+* Ticket Class Analysis
+* Journey Status Analysis
+* Delay Reason Analysis
+* Purchase Type Analysis
+* Monthly Revenue Analysis
+* Route Revenue Analysis
+* Most Delayed Routes Analysis
+
+---
+
+### ✅ Data Visualization
+
+Created analytical visualizations using **Matplotlib** and **Seaborn**, including:
+
+* Revenue Trends
+* Ticket Price Distribution
+* Ticket Class Comparison
+* Journey Status Visualization
+* Delay Reason Distribution
+* Monthly Revenue Trends
+* Route Revenue Analysis
+* Most Delayed Routes Visualization
+
+
+---
+
+## 🖼️ Dashboard Preview (Implemented by Bilal Abo Nar)
+
 
 ### 1. 🏠 Cover Page (Navigation)
 > *An app-like landing page using Power BI buttons and page navigation actions.*
